@@ -6,7 +6,7 @@ export default function Header() {
       <h1 className="w-full font-bold text-2xl ">Worlds in Collision</h1>
       <ul className="w-full h-full flex items-center justify-end">
         <li className="hover:underline hover:text-sky-400 transition-all">
-          <Link href={"/"}>Link</Link>
+          <Link href={`/pages/livro/`}>Livro</Link>
         </li>
       </ul>
     </header>
