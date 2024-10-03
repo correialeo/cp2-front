@@ -1,6 +1,6 @@
-export type ConteudoTipo = {
-    id: number,
-    titulo: string,
-    texto: string,
-    image: string
+export type TipoConteudo = {
+    page: string,
+    title: string,
+    text: string,
+    nasaImage:string   
 }
