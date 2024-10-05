@@ -1,30 +1,30 @@
 [
     {    
         "id": 1, 
-        "title": "TITULO", 
-        "text": "", 
-        "date": "2006-04-24"
+        "title": "A Hipótese do Encontro de Vênus com a Terra", 
+        "text": "Velikovsky sugeriu que o planeta Vênus era originalmente um cometa e que, em um passado remoto, passou perto da Terra, causando grandes catástrofes. Ele acreditava que essa proximidade foi responsável por eventos como terremotos, erupções vulcânicas, mudanças climáticas extremas e até pragas relatadas em textos históricos.", 
+        "date": "2020-01-20"
     },
 
     {    
         "id": 2, 
-        "title": "TITULO", 
-        "text": "", 
+        "title": "Marte e os Ciclos de Catástrofes", 
+        "text": "Velikovsky também sugeriu que o planeta Marte teve encontros próximos com a Terra, resultando em outro conjunto de desastres naturais. Ele acreditava que essas aproximações de Marte desencadearam eventos como enchentes, a elevação de mares, e outros cataclismos documentados em textos antigos.", 
         "date": "2002-06-13"
     },
 
     {    
         "id": 3, 
-        "title": "", 
-        "text": "", 
+        "title": "Catástrofes Globais e Mitos Antigos", 
+        "text": "Velikovsky acreditava que mitos e histórias antigas de culturas ao redor do mundo (como as da Grécia, Egito, Babilônia e civilizações maias) eram registros de catástrofes globais causadas pelos encontros com outros corpos celestes. Ele sugeriu que eventos como o Dilúvio, a destruição de Sodoma e Gomorra, e o êxodo dos hebreus poderiam estar ligados a esses desastres cósmicos.", 
         "date": "2004-08-02"
     },
 
     {
         "id": 4, 
-        "title": "", 
-        "text": "", 
-        "date": "2008-03-15"
+        "title": "Um Cálculo de Velikovsky", 
+        "text": "Cálculos Envolvendo a Rotação da Terra - Embora Velikovsky não tenha apresentado cálculos matemáticos detalhados para provar suas teorias de uma forma rigorosa, ele baseou suas hipóteses na ideia de que a rotação e órbita da Terra poderiam ser alteradas temporariamente devido à interação com outro corpo de grande massa, como Vênus. Possível Fórmula Gravitacional (baseada na física gravitacional): Embora Velikovsky não tenha fornecido equações precisas, você pode associar suas teorias ao conceito de perturbação gravitacional usando a equação da força gravitacional: f = g.m1 m2 / r2. Onde: F é a força gravitacional entre dois corpos. G é a constante gravitacional. m1 e m2 são as massas dos corpos envolvidos (no caso, Terra e Vênus). r é a distância entre os dois corpos.",
+        "date": "2021-12-21"
     }
     
 ]

@@ -48,7 +48,7 @@ return (
           style={{ width: '25%', height: 'auto' }} 
         />
     <p>{imageTitle}</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit, assumenda quae blanditiis pariatur iure delectus, illo accusantium ullam explicabo recusandae quis nihil dolore cupiditate beatae illum ex et, nostrum deleniti.</p>
+    <p>{page.text}</p>
     <button><Link href="/"></Link>Próxima página</button>
   </div>
 );
