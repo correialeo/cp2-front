@@ -7,16 +7,16 @@ export default function Header() {
       <nav>
         <ul className="w-full h-full flex items-center justify-end">
           <li className="hover:underline hover:text-sky-400 transition-all">
-            <Link href={"/"}>Page 1</Link>
+            <Link href={"/pages/1"}>Page 1</Link>
           </li>
           <li className="hover:underline hover:text-sky-400 transition-all">
-            <Link href={"/"}>Page 2</Link>
+            <Link href={"/pages/2"}>Page 2</Link>
           </li>
           <li className="hover:underline hover:text-sky-400 transition-all">
-            <Link href={"/"}>Page 3</Link>
+            <Link href={"/pages/3"}>Page 3</Link>
           </li>
           <li className="hover:underline hover:text-sky-400 transition-all">
-            <Link href={"/"}>Page 4</Link>
+            <Link href={"/pages/4"}>Page 4</Link>
           </li>
         </ul>
       </nav>

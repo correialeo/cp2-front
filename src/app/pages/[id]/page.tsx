@@ -2,7 +2,6 @@
 
 import { TipoConteudo } from '@/types';
 import Image from 'next/image';
-import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
 
 export default function About({params}:{params:{id:number}}) {
@@ -49,7 +48,6 @@ return (
         />
     <p>{imageTitle}</p>
     <p>{page.text}</p>
-    <button><Link href="/"></Link>Próxima página</button>
   </div>
 );
 }
