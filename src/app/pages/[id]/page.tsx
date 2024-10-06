@@ -44,7 +44,7 @@ export default function About({ params }: { params: { id: number } }) {
     <motion.main
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ ease: "easeInOut", duration: 0.75 }}
+      transition={{ ease: "easeInOut", duration: 0.25 }}
       className="w-full h-[calc(100vh-48px)] flex flex-col items-center justify-center bg-black "
     >
       <motion.h1

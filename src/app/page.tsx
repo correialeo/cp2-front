@@ -1,7 +1,9 @@
 "use client";
-import ScrollNomes from "@/components/ScrollNomes/ScrollNomes";
 import { motion } from "framer-motion";
 export default function Home() {
+  const text =
+    "Este projeto apresenta o CheckPoint 2 de Frontend Design Engineering";
+  const letters = Array.from(text);
   return (
     <main className="w-full h-[calc(100vh-48px)] flex flex-col items-center justify-center bg-homeBackground bg-cover bg-center bg-no-repeat">
       <div className="w-full h-full flex flex-col text-center items-center justify-start gap-5">
@@ -17,9 +19,18 @@ export default function Home() {
         >
           CP2 - Worlds in Colision
         </motion.h2>
-        <p className="font-Poppins font-extralight">
-          Este projeto apresenta o CheckPoint 2 de Frontend Design Engineering
-        </p>
+        <motion.p className="font-Poppins font-extralight">
+          {letters.map((letter, index) => (
+            <motion.span
+              key={index}
+              initial={{ opacity: 0, x: -10 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: index * 0.07 }} // Ajuste a velocidade da animação
+            >
+              {letter}
+            </motion.span>
+          ))}
+        </motion.p>
       </div>
     </main>
   );
