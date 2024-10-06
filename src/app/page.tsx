@@ -25,7 +25,7 @@ export default function Home() {
               key={index}
               initial={{ opacity: 0, x: -10 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: index * 0.07 }} // Ajuste a velocidade da animação
+              transition={{ delay: index * 0.07 }}
             >
               {letter}
             </motion.span>
