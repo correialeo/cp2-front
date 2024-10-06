@@ -5,7 +5,7 @@ export default function Home() {
     "Este projeto apresenta o CheckPoint 2 de Frontend Design Engineering";
   const letters = Array.from(text);
   return (
-    <main className="w-full h-[calc(100vh-48px)] flex flex-col items-center justify-center bg-homeBackground bg-cover bg-center bg-no-repeat">
+    <main className="w-full h-[calc(100vh-48px)] flex flex-col items-center justify-center bg-homeBackground bg-cover bg-center bg-no-repeat bg-black">
       <div className="w-full h-full flex flex-col text-center items-center justify-start gap-5">
         <motion.h2
           className="text-6xl font-Orbitron font-bold bg-gradient-to-b from-white via-neutral-200 to-neutral-900 bg-clip-text text-transparent"

@@ -45,10 +45,10 @@ export default function About({ params }: { params: { id: number } }) {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ ease: "easeInOut", duration: 0.25 }}
-      className="w-full h-[calc(100vh-48px)] flex flex-col items-center justify-center bg-black "
+      className="w-full h-[calc(100vh-48px)] flex items-center justify-around bg-black first:text-center first:justify-center first:block pb-[48px]"
     >
       <motion.h1
-        className="font-Orbitron font-bold bg-gradient-to-b from-white via-neutral-200 to-neutral-900 bg-clip-text text-transparent"
+        className="font-Orbitron font-bold text-4xl bg-gradient-to-b from-white via-neutral-200 to-neutral-900 bg-clip-text text-transparent"
         initial={{ opacity: 0 }}
         animate={{ opacity: 100 }}
         transition={{
@@ -59,9 +59,36 @@ export default function About({ params }: { params: { id: number } }) {
       >
         {page.title}
       </motion.h1>
-      <Image src={image} alt={imageTitle} width={400} height={300} />
-      <p>{imageTitle}</p>
-      <p>{page.text}</p>
+
+      <div className="w-full h-full flex text-center items-center">
+        <div className="w-full flex text-left px-8 justify-center">
+          <motion.p
+            className="font-Poppins font-thin text-xl w-2/4"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 100 }}
+            transition={{
+              duration: 1,
+              ease: [0.4, 0, 0.2, 1],
+              delay: 1.5,
+            }}
+          >
+            {page.text}
+          </motion.p>
+        </div>
+        <motion.div
+          className="w-full h-auto flex flex-col gap-2 items-center"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 100 }}
+          transition={{
+            duration: 1,
+            ease: [0.4, 0, 0.2, 1],
+            delay: 2,
+          }}
+        >
+          <p className="font-Orbitron">{imageTitle}</p>
+          <Image src={image} alt={imageTitle} width={500} height={500} />
+        </motion.div>
+      </div>
     </motion.main>
   );
 }

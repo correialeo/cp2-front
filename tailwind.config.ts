@@ -15,7 +15,6 @@ const config: Config = {
     extend: {
       backgroundImage: {
         homeBackground: "url('/img/home-background.jpg')",
-        errorBackground: "url('/img/error404.jpg')",
       },
     },
   },

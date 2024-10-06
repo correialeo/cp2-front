@@ -17,7 +17,7 @@ const ScrollNomes = () => {
         {nomes.map((item) => (
           <motion.div
             initial={{ opacity: 0 }}
-            animate={{ opacity: 0.5 }}
+            animate={{ opacity: 0.75 }}
             transition={{
               duration: 10,
               ease: "easeInOut",
