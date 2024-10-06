@@ -7,10 +7,14 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      Gruppo: ['"Gruppo"', "sans-serif"],
+      Orbitron: ['"Orbitron"', "sans-serif"],
+      Poppins: ['"Poppins"', "sans-serif"],
+    },
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage: {
+        homeBackground: "url('/img/home-background.jpg')",
       },
     },
   },
