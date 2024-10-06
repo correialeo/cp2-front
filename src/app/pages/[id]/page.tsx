@@ -15,6 +15,7 @@ export default function About({ params }: { params: { id: number } }) {
 
   const [image, setImage] = useState<string>("");
   const [imageTitle, setImageTitle] = useState<string>("");
+  const [imageLoaded, setImageLoaded] = useState<boolean>(false);
 
   useEffect(() => {
     const consumoApi = async () => {

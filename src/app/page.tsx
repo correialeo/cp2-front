@@ -1,6 +1,6 @@
 "use client";
+import ScrollNomes from "@/components/ScrollNomes/ScrollNomes";
 import { motion } from "framer-motion";
-
 export default function Home() {
   return (
     <main className="w-full h-[calc(100vh-48px)] flex flex-col items-center justify-center bg-homeBackground bg-cover bg-center bg-no-repeat">
@@ -20,13 +20,6 @@ export default function Home() {
         <p className="font-Poppins font-extralight">
           Este projeto apresenta o CheckPoint 2 de Frontend Design Engineering
         </p>
-      </div>
-      <div>
-        <ul>
-          <li>André Marcolongo - RM 555285</li>
-          <li>Davi Gonzaga Ferreira - RM 554890</li>
-          <li>Leandro Correia - RM 556203</li>
-        </ul>
       </div>
     </main>
   );
