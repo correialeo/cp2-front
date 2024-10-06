@@ -61,9 +61,9 @@ export default function About({ params }: { params: { id: number } }) {
       </motion.h1>
 
       <div className="w-full h-full flex text-center items-center">
-        <div className="w-full h-96 flex text-left px-4 justify-center items-center overflow-scroll">
+        <div className="w-full max-h-96 flex text-left px-4 justify-center items-start overflow-y-auto">
           <motion.p
-            className="font-Poppins font-thin text-xl w-2/4"
+            className="font-Poppins font-thin text-xl"
             initial={{ opacity: 0 }}
             animate={{ opacity: 100 }}
             transition={{
