@@ -14,7 +14,7 @@ export default function Home() {
           transition={{
             duration: 1,
             ease: [0.4, 0, 0.2, 1],
-            delay: 1,
+            delay: 0.5,
           }}
         >
           CP2 - Worlds in Colision
